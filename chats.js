@@ -150,7 +150,7 @@ let messageText1 = (lol1) => {
   newText2.append(speakImg);
   
   let speaker_image = document.querySelector(".speakImg_class2");
-  speaker_image.addEventListener("click",()=>speak(lol2));
+  speaker_image.addEventListener("click",()=>speak(lol1));
 }
 
 let messageText2 = (lol2) => {
@@ -488,4 +488,5 @@ let toMrunal = () =>{
             </p>
           </div>`;
 }
+
 
